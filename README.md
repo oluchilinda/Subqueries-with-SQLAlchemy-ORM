@@ -1,6 +1,6 @@
 # Writing Subqueries with SQLAlchemy ORM
 
- Dealing directly with databases from applications can be challenging at times, that is why you need tools that as an interface between the data layer and the core application. And the two most common tools available are SQL and ORM.
+ Dealing directly with databases from applications can be challenging at times, that is why you need tools that act as an interface between the data layer and the core application. And the two most common tools available are SQL and ORM.
  In this article, you learn how to use SQLAlchemy ORM to interact with your database
 
  ## WHY ORM
