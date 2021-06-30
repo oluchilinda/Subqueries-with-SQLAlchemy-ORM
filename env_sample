@@ -1,0 +1,4 @@
+FLASK_ENV=development
+FLASK_APP=main.py
+SECRET_KEY="your secret key"
+DEV_DATABASE_URL="mysql+mysqldb://DB_USERNAME:DB_PASSWORD@127.0.0.1/DATABASE_NAME"
