@@ -14,21 +14,26 @@
  Weigh up the advantages and disadvantages of both tools and make your choice.
 
  ### ORM in Action
- I will use the MYSQL database for this tutorial and will populate it using the following example data available on MySQL (docs)[https://dev.mysql.com/doc/index-other.html]
+ I will use the MYSQL database for this tutorial and will populate it using the following example data available on MySQL [docs](https://dev.mysql.com/doc/index-other.html)
 ```text
 The Sakila sample database is made available by MySQL and is licensed via the New BSD license. Sakila contains data for a fictitious movie rental company and includes tables such as store, inventory, film, customer, and payment. 
 ```
-#### Setting up mysql mac 
+#### Setting up mysql on  mac 
+*Note: You can check up tutorials online on how to set up MYSQL for your operating system( Windows or Linux)*
 ```shell
 brew install mysql
 mysql_secure_installation
 brew services start mysql
 mysql -u root -p
+```
+### Load database after unzipping the Sakila zip folder available on MySQL [docs](https://dev.mysql.com/doc/index-other.html)
+```shell
 SOURCE /path_folder/Downloads/sakila-db/sakila-schema.sql;
 SOURCE /path_folder/Downloads/sakila-db/sakila-data.sql;
 USE sakila;
 SHOW FULL TABLES;
 ```
+
 
 Output:
 ```shell
@@ -74,7 +79,7 @@ FLUSH PRIVILEGES;
 ### Set Up your Flask Application
 
 
-- Clone the github repo 
+- Clone this github repo 
 - Create a virtual environment and install the extensions in requirements.txt file
 - Update the env_sample with the following environment variables and your database credentials and run the following on your terminal 
 ```shell
