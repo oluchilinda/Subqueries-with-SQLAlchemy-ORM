@@ -16,7 +16,9 @@
  ### ORM in Action
  I will use the MYSQL database for this tutorial and will populate it using the following example data available on MySQL [docs](https://dev.mysql.com/doc/index-other.html)
 ```text
-The Sakila sample database is made available by MySQL and is licensed via the New BSD license. Sakila contains data for a fictitious movie rental company and includes tables such as store, inventory, film, customer, and payment. 
+The Sakila sample database is made available by MySQL and is licensed via the New BSD license.
+Sakila contains data for a fictitious movie rental company and includes tables 
+such as store, inventory, film, customer, and payment. 
 ```
 #### Setting up mysql on  mac 
 *Note: You can check up tutorials online on how to set up MYSQL for your operating system( Windows or Linux)*
@@ -187,7 +189,7 @@ WITH actors_s AS
  ORDER BY 3 desc;
 
 ```
-The following SQL Queries were gotten from the following book [Learning SQL by Alan Beaulieu] (https://www.amazon.com/Learning-SQL-Master-Fundamentals/dp/0596520832)
+The following SQL Queries were gotten from the following book [Learning SQL by Alan Beaulieu](https://www.amazon.com/Learning-SQL-Master-Fundamentals/dp/0596520832)
 
 
 
@@ -286,7 +288,7 @@ Output:
 
 
 Feedbacks are welcomed on how to optimize the queries , you can make a pull request to update it.
-There are more examples available here [Learning SQL by Alan Beaulieu] (https://www.amazon.com/Learning-SQL-Master-Fundamentals/dp/0596520832), you can always try.
+There are more examples available here [Learning SQL by Alan Beaulieu](https://www.amazon.com/Learning-SQL-Master-Fundamentals/dp/0596520832), you can always try.
 
 ### References
 1. [SQLALchemy ORM docs](https://docs.sqlalchemy.org/en/13/orm/query.html)
