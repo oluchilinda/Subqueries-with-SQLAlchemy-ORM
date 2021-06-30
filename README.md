@@ -194,6 +194,7 @@ The following SQL Queries were gotten from the following book [Learning SQL by A
 
 
  ### Convert SQL queries to ORM Syntax
+ *TIPS : I Isuggest you implement your queries in SQL and then convert them back to ORM, you can always check the output from both commands*
 ```python
 @bp.route("/info", methods=("GET", "POST"))
 def customer_IDs_with_filmRentals_and_totalPayments():
