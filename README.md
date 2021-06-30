@@ -286,3 +286,8 @@ Output:
 
 
 Feedbacks are welcomed on how to optimize the queries , you can make a pull request to update it.
+There are more examples available here [Learning SQL by Alan Beaulieu] (https://www.amazon.com/Learning-SQL-Master-Fundamentals/dp/0596520832), you can always try.
+
+### References
+1. [SQLALchemy ORM docs](https://docs.sqlalchemy.org/en/13/orm/query.html)
+
