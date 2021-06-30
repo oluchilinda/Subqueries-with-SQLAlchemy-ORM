@@ -187,7 +187,7 @@ WITH actors_s AS
  ORDER BY 3 desc;
 
 ```
-The following SQL Queries were gotten from the following book (Learning SQL by Alan Beaulieu)[https://www.amazon.com/Learning-SQL-Master-Fundamentals/dp/0596520832]
+The following SQL Queries were gotten from the following book [Learning SQL by Alan Beaulieu] (https://www.amazon.com/Learning-SQL-Master-Fundamentals/dp/0596520832)
 
 
 
