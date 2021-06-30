@@ -134,6 +134,7 @@ INFO  [alembic.runtime.migration] Running stamp_revision  -> f6b945117232
 
 ### Auto-generate the models
 We are going to use sqlacodegen to generate our models.py, This is a tool that reads the structure of an existing database and generates the appropriate SQLAlchemy model code, using the declarative style if possible, read more [here](https://pypi.org/project/sqlacodegen/)
+
 Run the following command on your terminal
 
 ```shell
